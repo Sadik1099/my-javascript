@@ -15,3 +15,9 @@ console.log(price3);
 var namee = "alo";
 var result = namee + ' ' + price3;
 console.log(result);
+//part-9
+var abss = -66.51;
+var absNumber = Math.abs(abss);
+console.log(absNumber);
+var rrr = Math.ceil(abss);
+console.log(rrr);
