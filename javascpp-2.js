@@ -17,11 +17,31 @@ friendAge.unshift(71);
 friendAge.shift();
 friendAge.sort();
 var part = friendAge.slice(2);
-console.log(part);*/
+console.log(part);
 
-var num=0;
+var num= [55,66,77,88,99,11,44];
 
-while(num<10){
-    console.log("i am lalin");
-    num++;
+for(var i=0;i<num.length;i++)
+{
+    var element = num[i];
+    console.log(element);
 }
+
+num =5;
+
+switch(num){
+    case 1000:
+        console.log("i am not");
+        break;
+    case 100:
+        console.log("dfs");
+        break;
+    case 10:
+        console.log("dfsff");
+        break;
+    default:
+        console.log("dfsdfsdfsdfsdf");
+}*/
+
+
+
